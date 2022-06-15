@@ -1,0 +1,42 @@
+.App {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 582px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+}
+
+section.product {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.section.product > h5 {
+  font-size: 16px;
+}
+
+.products-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: calc(50% - 40px);
+  margin: 10px;
+}
+.product > img {
+  width: 100%;
+}
+
+.price-wrap {
+  display: flex;
+  justify-content: space-between;
+}
